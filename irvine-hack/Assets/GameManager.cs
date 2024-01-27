@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject PlayerPrefab;
     public GameObject GameCanvas;
     public GameObject SceneCamera;
+    public Text PingText;
 
     private void Awake() {
         GameCanvas.SetActive(true);
@@ -32,6 +33,6 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        PingText.text = "Ping: " + PhotonNetwork.GetPing();
     }
 }
