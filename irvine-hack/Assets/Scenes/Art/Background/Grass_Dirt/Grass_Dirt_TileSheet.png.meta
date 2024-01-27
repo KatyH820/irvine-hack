@@ -1,0 +1,6124 @@
+fileFormatVersion: 2
+guid: dcf745badb119704aa79fede5768265d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8602e85c7b3d74a8722e74d1ed1a6e
+      internalID: 768352119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f8c83231c598a43afa1be27393d727
+      internalID: 332673826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ddd1ab86cb79e4e8d96252c9fb7e5c
+      internalID: 956503003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb3590b82f0e4445a1ff63b536e7607
+      internalID: 265796543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a9236a1ed4e2d4c8bfd066f963232c
+      internalID: -1908420263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3586fb1ec62cd45919027876a73a79
+      internalID: -1786457896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fcaff0a3074c44188b9e1a4e8ead2a
+      internalID: -1301105592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_7
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11abbbfc08558d45a66b79a90890b8b
+      internalID: -1809654386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40cc97a00565f24b990b8842b0c5fcc
+      internalID: -1878979010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b36e00ce1946cb4badfe7d9b9e3a49a
+      internalID: -237750093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54b6f2417379642a6d30546724928a
+      internalID: 1344532988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 305
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3382e0a1190e77d4bab0936260345101
+      internalID: -167363929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3051a92b12cf7df4fa6a3a7b9d2481cf
+      internalID: -253300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3596e2cc5f44f4c8aa292418c71b7b
+      internalID: 867447888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfa114ffab51664bb365d7c0f09a6f6
+      internalID: -290646083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444cc6c3ffb12d5429cbe8a8dde6b664
+      internalID: 1440931620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1f1393b2f9ac44bf5acc3a6d6b020
+      internalID: 155838432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613c4f8eca3aba846ac50f4acbffa3c3
+      internalID: -760573184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8197868e18092d446ae8d8fff257e4ff
+      internalID: 645593288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86aacaa2fbfa5f458b5e756fa89f999
+      internalID: -915078473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f998b4ddb9555054d914ab6438ce34dc
+      internalID: -1531101582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43be26dcab3a3b45b7ec4b62dcf02fd
+      internalID: -1568173675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060cd510d5a21264abecf1c50af79b59
+      internalID: -1119780249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33193663ad52a914692f1d8f473a96e7
+      internalID: -1233442937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_24
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b1ba14642d1cc4f90167dc623b7d5b
+      internalID: -60069307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_25
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9328adb1f0e1584da631ea318ca9d60
+      internalID: -2042308881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_26
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 289
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff63dd17c5d384c4998eeffa2e49b033
+      internalID: 1438066128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9b35ec5acd2e948bfcbbf199c9204c
+      internalID: 631031457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ee430b607163b47ad94d2c09f35578
+      internalID: 1618957904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d248074ab06f25e48b0c8dfce33e62f4
+      internalID: 1483413956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfb07cb937f2dc4ab851c8be6d5e235
+      internalID: 1139277831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_31
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c029b389578dd48ab1b2a60e951385
+      internalID: 1165167713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2e097f48bff7b4e83064b8c0b3c1d0
+      internalID: -1799408079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_33
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc4b4b2aa92ad4ca1fa5daf1ad42fe
+      internalID: -2063610617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_34
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f49823fd7703498297ec95944f7b1
+      internalID: 560420350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_35
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a9b577dab676648b938bab2926705c
+      internalID: 167729644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_36
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f818582b7483514c869b43115bab3f5
+      internalID: -193579885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_37
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957af114b05874743a26e1771a6bca54
+      internalID: 426974512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_38
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecbd439a7504d6458519980a98d0eae
+      internalID: -1014140203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_39
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d34b03d07409428e0f7e7ad64a97d
+      internalID: 524443067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_40
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3bf3938653943499625f68e737fce2
+      internalID: 2146134826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_41
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424533cdd041a47408fe554a0f7cccab
+      internalID: -1532873679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d7dfb97d2f36644826fd7daa58f37f
+      internalID: -1332133489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_43
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d812d20305d5d4d824b68fb827dc7c
+      internalID: 1227295961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3040d027bb38ef448b24c761caf03db0
+      internalID: -27615384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_45
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc66bcacfa3b9d459e723d398d58cc1
+      internalID: 1996117849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_46
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4509af5f1c72ce747b28d61288bc51f6
+      internalID: -1137844746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_47
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2e178d9ad12ed40a49b6f7a6c362f6
+      internalID: 1667774638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_48
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9b71117eafe54448ec94fdf6d64fb1
+      internalID: -845272364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_49
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa8b9ec1067ca848b257c6ec4a835be
+      internalID: 1893821021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_50
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2bb52d4c562ae45bf7437e850ad601
+      internalID: -201457309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_51
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965eeb6cb31853f40bf5beb319acc369
+      internalID: -945664001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_52
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7911982e27b309f4a9f2950f6f8dbb92
+      internalID: -294403227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_53
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e762d8fdc45439b4b9561857cfe9c6f5
+      internalID: -1716371431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190c0dd0ff8e4a64d8cf3d044f704bea
+      internalID: -1515457857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_55
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6fcffdee4dfda4890d3d8b3e103a42
+      internalID: 143602949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_56
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 257
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c536bf1a4a3485419bf195c8ca55b1c
+      internalID: 435557951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_57
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c23ee0d1b366d45ba542126ebb1419
+      internalID: -746225291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f51da99c149834aafdc8b9da9b89e4
+      internalID: 506097391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_59
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6378b4d6594ff354b9bfd9819ce4aaec
+      internalID: 22707565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_60
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083d6d934b0e1294cbcf94d9bf6cc0cd
+      internalID: -349433661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_61
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b83a983f1f5a6545a755567d45b4348
+      internalID: 1636119717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_62
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1ef8acc2126244a89c530cec91ea96
+      internalID: 1764722159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5112e42e795edac4d9a45106a7a9a116
+      internalID: -1937277875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_64
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ccf34bc0b20734f8078a9f876b99d7
+      internalID: -426838295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_65
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cfaec5df490594f971ba31bc393a4b
+      internalID: 741241222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a540dbbf44a8c4cb1b6a4d1347fd97
+      internalID: 1081432826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_67
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7615e411ad7c78e45b07e8eed5001f7c
+      internalID: -1252380763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_68
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529934cbcd3fcd443a5e918b091ae5dd
+      internalID: 1368092386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_69
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a498932927f9c764e9495e73b6760474
+      internalID: -1385606659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_70
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a0c6dd5fb56944d832a4fdc940710c
+      internalID: -396529896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_71
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147150cf1da14d4408043982c565edd6
+      internalID: 1566601120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_72
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d058508a6ae71a64cb301fc67ad5168f
+      internalID: 793238100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_73
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e166895b3399478872fd68d8d5e04
+      internalID: 1194621733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_74
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993149593f9098644ac0d21d8122cadb
+      internalID: -1820199990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_75
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d89692a136175745987907def47e1f8
+      internalID: -2102894193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_76
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d0c9f1462c29945b75bead651cc572
+      internalID: 737366368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_77
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de286d96ba075284d812a383465ebc57
+      internalID: 2059536431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_78
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93facc70ec3d0b43aadf651e07d47ad
+      internalID: 1808661610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_79
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed12f0d17effbd34496368e48c11ef75
+      internalID: -184074067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_80
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0d154ca2d1e440829f3c773a01b73
+      internalID: 1307280871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_81
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffebcd8479396a4992c18061f5d6ac4
+      internalID: 2116469907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_82
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8524a810e2ff1ab4e8cbc29220d91057
+      internalID: 732266898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_83
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c54ad322cd9c64db0f1ce2488f041d
+      internalID: -322897167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_84
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fddaf27b0d8474e9b6e6a18bff6f09
+      internalID: 1941908245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_85
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0c0d0c04c25144aa9c02516e7156cb
+      internalID: -2025606960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_86
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7130aa44071f8a4380af499622a5dd3
+      internalID: -242803319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_87
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186ef12a294f762438be3117a3a75db5
+      internalID: 1071754730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_88
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80577364000b4d40bd8c73eded59388
+      internalID: -866245109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_89
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c55e54693bbe8747ad3fb46acdc8852
+      internalID: 667722663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_90
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1caa25567863144dbd8ee5b7448678a
+      internalID: -193780508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_91
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72840c433db512f4f8059d484e0cc305
+      internalID: 1422984511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_92
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d7222c600735e4c8d75ab081ff259d
+      internalID: -2035919107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_93
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cf5fbaa24375a41ae3f734a3c3e1ee
+      internalID: -2137198182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_94
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ae67a98b86c34aa7a836444061083
+      internalID: 217673724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_95
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e06985d20f1f5f4b8179985ffb58a09
+      internalID: 779397230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_96
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdaa275f8f278547b33c88ea2bbceab
+      internalID: 764555561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_97
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97144746f63e84a469aafcfaa104c209
+      internalID: 220570334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_98
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a3563048910b648b5f81f62a53f881
+      internalID: -1767439601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_99
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81ccf02c0f606e488a5432d885a2f28
+      internalID: 302478266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_100
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3794e89243f65bc4dba775af899cbda0
+      internalID: -440643222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_101
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f3d3d8ecedd054d85ee3616a7241bf
+      internalID: -1538680735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_102
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e581060ccc74fe429cf2dfb4827200b
+      internalID: 1104840294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_103
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de52b31a84e2d3447a03866ccf076721
+      internalID: 292153118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_104
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00086bb1663feb24b81c653b58348c90
+      internalID: -86777756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96a487a76af07940a10234fe5eeb840
+      internalID: 379848518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_106
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52cf84f5fe2bd442aa1e73dab2c73fe
+      internalID: 18245370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_107
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c495555c0f105f44b6ee8a85cf6732b
+      internalID: -1039603699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_108
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a079eb89ecf5dd4eba8b09b68e473dd
+      internalID: -2049939516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_109
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907c81c6b4c0f514c860ffbff1889773
+      internalID: 292291901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_110
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ac3657c9393024da549b5a45e04f5d
+      internalID: -2141337967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_111
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2192dabe5bd16ad41895157c22909229
+      internalID: 248483720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_112
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b5b805d89f71b40af58e39aeebb4d2
+      internalID: -1083875273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_113
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b7668cce304f448c87f663895e0d8
+      internalID: -1942957973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_114
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097f7f9946ea9514e8e341d5e71594b3
+      internalID: -1108434340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_115
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06109ed35d463a4eb2a1ffaeea253b8
+      internalID: -911272188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_116
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b10f40812f55bf489e9cb9d6512408c
+      internalID: 1429520882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_117
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c98d4c61c73fc43881c8d96f06c572
+      internalID: 821922472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_118
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3189e1cd76e810d4eae4e5d7588e9852
+      internalID: 852132067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_119
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78626bddaf82d24385df923bac2c507
+      internalID: 144756091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_120
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0d72929b3e76c4ab658d23b7193eaf
+      internalID: 524771438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_121
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e3e5c6a470f1a4d8b3b4a8d535d4d6
+      internalID: 714314538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_122
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec1e652dd61284cabc9114d03863ac
+      internalID: 1063979848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_123
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f407e29c4b4f2ba428e4eb47ff4e064d
+      internalID: 2100522058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_124
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8abc0811352ce4691584b81ffdc424
+      internalID: -781785897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_125
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77de36303d302d94188e7391c125d5bc
+      internalID: 119297593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_126
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263737c49972d1745a766ef4bcdb1057
+      internalID: 1481667697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_127
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b2de2aead68344ac377c7c77cd746
+      internalID: -256899525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_128
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9e4f411d34d2c49b7041d802d26d0c
+      internalID: -201779252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_129
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7c3f28bc0b0724289665a31fcf85c5
+      internalID: 1764011139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_130
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8f11091bdc3ce4ebc9886f48093455
+      internalID: 469868804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_131
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbd4335a58f7bd44b1d3b1d9ad4b9f9
+      internalID: -1213200444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_132
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f2b6beb1f9ee44ea0706b3248002ad
+      internalID: 1737862895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_133
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d4436875481c4f9b60777544b9710
+      internalID: -881757169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_134
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e2424bb40dfb74ea859f7b83d75259
+      internalID: 636293843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_135
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8266f63fbf0ca514f9d6c85c1ca5fad5
+      internalID: 1097477737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_136
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c732ec55a9c4bb049976e06814f5d911
+      internalID: 144480346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_137
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4b6bd020b37544ca463873ddcc8e8c
+      internalID: 2144467928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_138
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6389c96d375046479cb1131073cc4a0
+      internalID: -1881022494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_139
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7316b669c06fbf143ad1a056025e3ef9
+      internalID: -1915583112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_140
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75d8368e55e10840a0df83b6b4ad8f4
+      internalID: 1121944969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_141
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303d542b817dc08409ea566ef717619d
+      internalID: 397578168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_142
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d96e90886a8c36479825eb71bd2c8bb
+      internalID: -469420769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_143
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d537b1c52039d34ba0865ea9669f26e
+      internalID: 1148291902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_144
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e025439344a4743b4f5dc92955553e
+      internalID: 921863039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_145
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f3ad561238cc042a295c696a70a869
+      internalID: 1190130966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_146
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bd6be7a74ce4e4f80c635830806e0e
+      internalID: -388403501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_147
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0c438b1eab99a429eac9b32a93f2df
+      internalID: 216789361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_148
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46fc11aa4a0073449b3a5f2d533fb33
+      internalID: 1247445610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_149
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe07cae5456c42448f86ffaa3c37cbb
+      internalID: -774530911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_150
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3831fb0368943594196a0d2dd7449a8c
+      internalID: 426997617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_151
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819b59ff67bfeb54abc23b7b04d9609f
+      internalID: 222078876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_152
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4506e8c5c7e4aa478f3549e5dbecafc
+      internalID: 1538105465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_153
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b38d517382fba248950af68675c7471
+      internalID: -1390217316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_154
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920bdf5885f578040ae6a1659376bb08
+      internalID: -1708130548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_155
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b5e35c669d55f4586fb15c7cfa454b
+      internalID: -1341850390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_156
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b7a2946f6f4e74eab00cb8dc345f98
+      internalID: 1211356771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_157
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98480d7d08d50418b4ab9dd6cc0c62
+      internalID: -1465913481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_158
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ad31752624574e8ff5b99e302d6c9
+      internalID: -1035409622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_159
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93a8ca7fc6ee9747be2fa9d5977e165
+      internalID: 1508141477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_160
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2380b339df827824aaca0ba3274c4655
+      internalID: -487102369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_161
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57d2f3848ffda347b1c6f96f1c705d2
+      internalID: 211458058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_162
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35666c68b1ae8444812f81dba6d36d3
+      internalID: -2085383797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_163
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81542ec8fa9a2e4a9c53715d3be02ab
+      internalID: -2102847179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_164
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7efbb5d6612e634ab059352159a2134
+      internalID: 944768994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_165
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3ec3af8619584fa9b80d5137d0072
+      internalID: -1641859998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_166
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589d0d3558518b64f804716824064ef3
+      internalID: -774998019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_167
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfa9586e903d3f42a1b197950a96bce
+      internalID: 1793537254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_168
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a829f9c63408b45a4857a22655f5e3
+      internalID: -1476355942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_169
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bf0145cfd2f34469d6739f1caf594b
+      internalID: 1955058599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_170
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c80625bfb5b984d972e8520000458d
+      internalID: -1704797366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_171
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3ad84e447018b4cb92a4e9ef7ff196
+      internalID: 1451234149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_172
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bdf4278212d4f46973eba7fc326c53
+      internalID: -1865132964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_173
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a23955bb92d244b83c616a09e0584
+      internalID: 683005730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_174
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb5fcac252660846aaebb224f6713b5
+      internalID: 1026567165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_175
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81a1bd104f959e49807fbc9056410e9
+      internalID: -1790489893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_176
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952a6621bb02a048945451d842bcab5
+      internalID: 1584297342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_177
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390708bc78f68aa4f91a46fd6c910a04
+      internalID: 1206671653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_178
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9831697abdd5c45b4229be375f5765
+      internalID: 1593050696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_179
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9631b68dadde00a41b7504903a4f4dc8
+      internalID: 2090354665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_180
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9e06560bbf57346ba059a487607bda
+      internalID: 1204757604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_181
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202c02d9c215e9040b0d40da0b43b9be
+      internalID: -1919386618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_182
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda5701bc0977df4a874273be1947371
+      internalID: 441284379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_183
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae69ac25a2e404d900f57fa3663993
+      internalID: 1016542108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_184
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870cb25e62628db44a60468271c79d10
+      internalID: -1561249907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_185
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913c8e05b3ad93d428ee743ab10d5b29
+      internalID: -922829553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_186
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bba5c4aeedcc74e87b21c318fb9ee4
+      internalID: -1413219540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_187
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed048d045f71d0044b6fd4fdc1c8155e
+      internalID: -11272101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_188
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98cc0e575a90348bd8eb7a0a4f9a8e
+      internalID: 63491294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_189
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c0c22a59a282a4388377fba3b13eeb
+      internalID: -1849115995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_190
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62873786d2c397c4bac932c3442d75b4
+      internalID: 407791128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_191
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd0d6da6a23cab45a5c63e743f2a7ac
+      internalID: -1937072393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_192
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe06c918230934b4d9ff84e45c26a07e
+      internalID: 889128581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_193
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46644f4fb171c14db2e50251ed4e52a
+      internalID: -1904578714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_194
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86a7d5fae40d0146aa0766b79d551b8
+      internalID: 726052353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_195
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640d5898cb9e60445bde52fed633552f
+      internalID: 1687571422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_196
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067b0872428d9564d8c3f4be8df1df6f
+      internalID: 595322493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_197
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f38f524d1686246aff4938cc402679
+      internalID: 614007400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_198
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8533b26c6609d24ebe83bf5e87a2a25
+      internalID: 2044522418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_199
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744bd0f1f2458494a9da07cb925c1800
+      internalID: 2070540815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_200
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763f045436b7fd4ca9f54455467dd34
+      internalID: -1423798133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_201
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd4b1539f66b884aaad33afa607c9ca
+      internalID: -1069777564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_202
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b89b531837d6fa44ac3d9dc04bce806
+      internalID: -145153118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_203
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a232457d0640754eb29ede1789efe37
+      internalID: -1136751231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_204
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1312dde9a473c4c8f9b1e4b4d054f8
+      internalID: -1403468920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_205
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da97e5f3c95c4043a4fadc7231be2b6
+      internalID: -287990871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_206
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773878cc84c4ced4fbc8622dc5d1181a
+      internalID: -669679964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_207
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a56269ff32ad964aba09225823a8bca
+      internalID: 196385431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_208
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eb8cc0069bcb442846e2551d82924c
+      internalID: -249459598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_209
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6607384eb4aeb4da59ff1a1fc0e12f
+      internalID: 1051538527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_210
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc0faf50270ce144acee318f73476cf
+      internalID: 395945362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_211
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0a000a2c51faa44be63eeae5d18eb4
+      internalID: 1072396720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_212
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925ed9f6f23131242ac443210c3af6dd
+      internalID: 345596496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_213
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dfce154438f4049a5d989c6ad176e7
+      internalID: -1482197037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_214
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c809d73ab52c545b8f63487741ccc7
+      internalID: -549366991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_215
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd1fb2c6d04a8a42bcb1ba37b46c74a
+      internalID: 689334424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_216
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004e3eb5a79b9cf4194ec5f7535183d1
+      internalID: 734258162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_217
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818b139b5ff9ca84cb8fd21a836e34e8
+      internalID: -2094472983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_218
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10424e58998f8ad4e96c2a82f05c5067
+      internalID: -656703011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_219
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dee5efdbf947145ae5f2ef7a97a21f
+      internalID: 862803493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_220
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cd00612d7832745a378d066c85653c
+      internalID: -709718950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_221
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67683e41d1bcf504dafc8238c5cb9cec
+      internalID: -2040659970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_222
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35695339bd4b9a40aac30b258605858
+      internalID: 1921595731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_223
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d68ce3f1607ba64bb1ab6fe4565e2e8
+      internalID: 950137015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_224
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567cd3741d1366c4999d3cca7e3f5ca8
+      internalID: -1617229198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_225
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e83f9f930b94f7438fe28354a208f1b
+      internalID: -269392715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_226
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad9c9a3566da03469e9a257aae7eba1
+      internalID: -1420733428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_227
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495cb5ea0fa10a244a5e85147f69eddf
+      internalID: 1733764023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_228
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b923859171b4648b52413a7120f47a
+      internalID: -1226469064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_229
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb92391e95fd1646a954013e36cd2a8
+      internalID: -728918387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_230
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab537a239a733e24697724a595472eb0
+      internalID: -771883092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_231
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ba2878a6525144b8b02b34ffcaf741
+      internalID: 225738475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_232
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c3cce3379e21e438c154bc57c2a1c3
+      internalID: -475518865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_233
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51cfb8b4b9e9c043b16e1869de3cfdc
+      internalID: 1066562390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_234
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2c3bd4ae78e1347bd913a269d92862
+      internalID: -1304711364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_235
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a1a54b120913478fce215c0aa16f3
+      internalID: -1097500148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_236
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3584001ed37156b458d0ace31f878b8e
+      internalID: -1584726614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_237
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1393cb67d18f65040bd52f454c83ca33
+      internalID: 363081812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_238
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d426c10a021b4574c968b86e637b35f1
+      internalID: 1791649315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_239
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbff0f0dae527849ab35b8314e8e104
+      internalID: -614442428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_240
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c1453f183d1ee40b1ab97ce5a0d41c
+      internalID: 1763350863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_241
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb02c91ffdd3c948a10a47c47679d98
+      internalID: 2003205463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_242
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334b9dc81b8797140a62403284d2a5f5
+      internalID: -1094332354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_243
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e52af3adc5ab4891126ae2785ecb7
+      internalID: 923382658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_244
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9934b46592903624784c4c53f7d876a6
+      internalID: -675982272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_245
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711fa6646c9ace24c85bf52ef30e67e3
+      internalID: 2088721790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_246
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89183810851c97e4c9ec548dc552d57c
+      internalID: -1652811376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_247
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9ff005ff3d67445b7f0fc53c8406ce
+      internalID: -135315159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_248
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ccb940b983b34f9d2be79e2de2125
+      internalID: -579284713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_249
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902b3f63ee7bcb442821fb2868fc5256
+      internalID: 1578918079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_250
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54924b91ade559145aa9c104b4918d56
+      internalID: -1132488263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_251
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea749df7fa4d834e88e1bd4bd308979
+      internalID: -1417213126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_252
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e46dc972e9b0a142962e420c69d2c66
+      internalID: 397200541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_253
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4e56e7a841bae47a6e5bed13d961b7
+      internalID: 1277596581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_254
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1862a6a85f3a71b45909bbef971fceef
+      internalID: 1521995856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_255
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8d167ab1587d146bfe7dc418cf66ed
+      internalID: 1047102948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_256
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0fc8b372c488144bcf778c7dbfb0fc
+      internalID: 1804354342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_257
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096a640a3bb1c4f458e84b8564b0c3bc
+      internalID: 1604661980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_258
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee738646920898945a0265ec40d2d9a8
+      internalID: 849389082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_259
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90352dfa8d6cf8b46a47a3f2c032e2f1
+      internalID: -1448642513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_260
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1218f844858da42bd4224a8615e456
+      internalID: -339914251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_261
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c331cad6788e4429606fb315ba9f18
+      internalID: 906097992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_262
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982706c3e1a271c44ac4fbcf78c9a9b8
+      internalID: -419812920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_263
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dccd3e1d8082c4eaa752a3926c2833
+      internalID: -1554299195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_264
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da6e7b476335ad4298e23dccb7b26ee
+      internalID: -1377423507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_265
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50af5c4b994aed24eaa1bb0ec0613492
+      internalID: 1575402706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_266
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd40f5485c95b34a9e5adb9e9629850
+      internalID: -1646083692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_267
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0a44144eb21b4aa0760d2a5f73639
+      internalID: 833155479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_268
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba032e8c7389e8b499fe6b11f3e31753
+      internalID: -1716884334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_269
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de58486b24ef402469ca48b3af46416a
+      internalID: -1315237121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_270
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d3ef1c6d447b40ac9d6abc7386267
+      internalID: -1647690222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_Dirt_TileSheet_271
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c191f972ab28b4d4e9fcb7baf9560f26
+      internalID: -1201860385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Grass_Dirt_TileSheet_0: 768352119
+      Grass_Dirt_TileSheet_1: 332673826
+      Grass_Dirt_TileSheet_10: 1344532988
+      Grass_Dirt_TileSheet_100: -440643222
+      Grass_Dirt_TileSheet_101: -1538680735
+      Grass_Dirt_TileSheet_102: 1104840294
+      Grass_Dirt_TileSheet_103: 292153118
+      Grass_Dirt_TileSheet_104: -86777756
+      Grass_Dirt_TileSheet_105: 379848518
+      Grass_Dirt_TileSheet_106: 18245370
+      Grass_Dirt_TileSheet_107: -1039603699
+      Grass_Dirt_TileSheet_108: -2049939516
+      Grass_Dirt_TileSheet_109: 292291901
+      Grass_Dirt_TileSheet_11: -167363929
+      Grass_Dirt_TileSheet_110: -2141337967
+      Grass_Dirt_TileSheet_111: 248483720
+      Grass_Dirt_TileSheet_112: -1083875273
+      Grass_Dirt_TileSheet_113: -1942957973
+      Grass_Dirt_TileSheet_114: -1108434340
+      Grass_Dirt_TileSheet_115: -911272188
+      Grass_Dirt_TileSheet_116: 1429520882
+      Grass_Dirt_TileSheet_117: 821922472
+      Grass_Dirt_TileSheet_118: 852132067
+      Grass_Dirt_TileSheet_119: 144756091
+      Grass_Dirt_TileSheet_12: -253300044
+      Grass_Dirt_TileSheet_120: 524771438
+      Grass_Dirt_TileSheet_121: 714314538
+      Grass_Dirt_TileSheet_122: 1063979848
+      Grass_Dirt_TileSheet_123: 2100522058
+      Grass_Dirt_TileSheet_124: -781785897
+      Grass_Dirt_TileSheet_125: 119297593
+      Grass_Dirt_TileSheet_126: 1481667697
+      Grass_Dirt_TileSheet_127: -256899525
+      Grass_Dirt_TileSheet_128: -201779252
+      Grass_Dirt_TileSheet_129: 1764011139
+      Grass_Dirt_TileSheet_13: 867447888
+      Grass_Dirt_TileSheet_130: 469868804
+      Grass_Dirt_TileSheet_131: -1213200444
+      Grass_Dirt_TileSheet_132: 1737862895
+      Grass_Dirt_TileSheet_133: -881757169
+      Grass_Dirt_TileSheet_134: 636293843
+      Grass_Dirt_TileSheet_135: 1097477737
+      Grass_Dirt_TileSheet_136: 144480346
+      Grass_Dirt_TileSheet_137: 2144467928
+      Grass_Dirt_TileSheet_138: -1881022494
+      Grass_Dirt_TileSheet_139: -1915583112
+      Grass_Dirt_TileSheet_14: -290646083
+      Grass_Dirt_TileSheet_140: 1121944969
+      Grass_Dirt_TileSheet_141: 397578168
+      Grass_Dirt_TileSheet_142: -469420769
+      Grass_Dirt_TileSheet_143: 1148291902
+      Grass_Dirt_TileSheet_144: 921863039
+      Grass_Dirt_TileSheet_145: 1190130966
+      Grass_Dirt_TileSheet_146: -388403501
+      Grass_Dirt_TileSheet_147: 216789361
+      Grass_Dirt_TileSheet_148: 1247445610
+      Grass_Dirt_TileSheet_149: -774530911
+      Grass_Dirt_TileSheet_15: 1440931620
+      Grass_Dirt_TileSheet_150: 426997617
+      Grass_Dirt_TileSheet_151: 222078876
+      Grass_Dirt_TileSheet_152: 1538105465
+      Grass_Dirt_TileSheet_153: -1390217316
+      Grass_Dirt_TileSheet_154: -1708130548
+      Grass_Dirt_TileSheet_155: -1341850390
+      Grass_Dirt_TileSheet_156: 1211356771
+      Grass_Dirt_TileSheet_157: -1465913481
+      Grass_Dirt_TileSheet_158: -1035409622
+      Grass_Dirt_TileSheet_159: 1508141477
+      Grass_Dirt_TileSheet_16: 155838432
+      Grass_Dirt_TileSheet_160: -487102369
+      Grass_Dirt_TileSheet_161: 211458058
+      Grass_Dirt_TileSheet_162: -2085383797
+      Grass_Dirt_TileSheet_163: -2102847179
+      Grass_Dirt_TileSheet_164: 944768994
+      Grass_Dirt_TileSheet_165: -1641859998
+      Grass_Dirt_TileSheet_166: -774998019
+      Grass_Dirt_TileSheet_167: 1793537254
+      Grass_Dirt_TileSheet_168: -1476355942
+      Grass_Dirt_TileSheet_169: 1955058599
+      Grass_Dirt_TileSheet_17: -760573184
+      Grass_Dirt_TileSheet_170: -1704797366
+      Grass_Dirt_TileSheet_171: 1451234149
+      Grass_Dirt_TileSheet_172: -1865132964
+      Grass_Dirt_TileSheet_173: 683005730
+      Grass_Dirt_TileSheet_174: 1026567165
+      Grass_Dirt_TileSheet_175: -1790489893
+      Grass_Dirt_TileSheet_176: 1584297342
+      Grass_Dirt_TileSheet_177: 1206671653
+      Grass_Dirt_TileSheet_178: 1593050696
+      Grass_Dirt_TileSheet_179: 2090354665
+      Grass_Dirt_TileSheet_18: 645593288
+      Grass_Dirt_TileSheet_180: 1204757604
+      Grass_Dirt_TileSheet_181: -1919386618
+      Grass_Dirt_TileSheet_182: 441284379
+      Grass_Dirt_TileSheet_183: 1016542108
+      Grass_Dirt_TileSheet_184: -1561249907
+      Grass_Dirt_TileSheet_185: -922829553
+      Grass_Dirt_TileSheet_186: -1413219540
+      Grass_Dirt_TileSheet_187: -11272101
+      Grass_Dirt_TileSheet_188: 63491294
+      Grass_Dirt_TileSheet_189: -1849115995
+      Grass_Dirt_TileSheet_19: -915078473
+      Grass_Dirt_TileSheet_190: 407791128
+      Grass_Dirt_TileSheet_191: -1937072393
+      Grass_Dirt_TileSheet_192: 889128581
+      Grass_Dirt_TileSheet_193: -1904578714
+      Grass_Dirt_TileSheet_194: 726052353
+      Grass_Dirt_TileSheet_195: 1687571422
+      Grass_Dirt_TileSheet_196: 595322493
+      Grass_Dirt_TileSheet_197: 614007400
+      Grass_Dirt_TileSheet_198: 2044522418
+      Grass_Dirt_TileSheet_199: 2070540815
+      Grass_Dirt_TileSheet_2: 956503003
+      Grass_Dirt_TileSheet_20: -1531101582
+      Grass_Dirt_TileSheet_200: -1423798133
+      Grass_Dirt_TileSheet_201: -1069777564
+      Grass_Dirt_TileSheet_202: -145153118
+      Grass_Dirt_TileSheet_203: -1136751231
+      Grass_Dirt_TileSheet_204: -1403468920
+      Grass_Dirt_TileSheet_205: -287990871
+      Grass_Dirt_TileSheet_206: -669679964
+      Grass_Dirt_TileSheet_207: 196385431
+      Grass_Dirt_TileSheet_208: -249459598
+      Grass_Dirt_TileSheet_209: 1051538527
+      Grass_Dirt_TileSheet_21: -1568173675
+      Grass_Dirt_TileSheet_210: 395945362
+      Grass_Dirt_TileSheet_211: 1072396720
+      Grass_Dirt_TileSheet_212: 345596496
+      Grass_Dirt_TileSheet_213: -1482197037
+      Grass_Dirt_TileSheet_214: -549366991
+      Grass_Dirt_TileSheet_215: 689334424
+      Grass_Dirt_TileSheet_216: 734258162
+      Grass_Dirt_TileSheet_217: -2094472983
+      Grass_Dirt_TileSheet_218: -656703011
+      Grass_Dirt_TileSheet_219: 862803493
+      Grass_Dirt_TileSheet_22: -1119780249
+      Grass_Dirt_TileSheet_220: -709718950
+      Grass_Dirt_TileSheet_221: -2040659970
+      Grass_Dirt_TileSheet_222: 1921595731
+      Grass_Dirt_TileSheet_223: 950137015
+      Grass_Dirt_TileSheet_224: -1617229198
+      Grass_Dirt_TileSheet_225: -269392715
+      Grass_Dirt_TileSheet_226: -1420733428
+      Grass_Dirt_TileSheet_227: 1733764023
+      Grass_Dirt_TileSheet_228: -1226469064
+      Grass_Dirt_TileSheet_229: -728918387
+      Grass_Dirt_TileSheet_23: -1233442937
+      Grass_Dirt_TileSheet_230: -771883092
+      Grass_Dirt_TileSheet_231: 225738475
+      Grass_Dirt_TileSheet_232: -475518865
+      Grass_Dirt_TileSheet_233: 1066562390
+      Grass_Dirt_TileSheet_234: -1304711364
+      Grass_Dirt_TileSheet_235: -1097500148
+      Grass_Dirt_TileSheet_236: -1584726614
+      Grass_Dirt_TileSheet_237: 363081812
+      Grass_Dirt_TileSheet_238: 1791649315
+      Grass_Dirt_TileSheet_239: -614442428
+      Grass_Dirt_TileSheet_24: -60069307
+      Grass_Dirt_TileSheet_240: 1763350863
+      Grass_Dirt_TileSheet_241: 2003205463
+      Grass_Dirt_TileSheet_242: -1094332354
+      Grass_Dirt_TileSheet_243: 923382658
+      Grass_Dirt_TileSheet_244: -675982272
+      Grass_Dirt_TileSheet_245: 2088721790
+      Grass_Dirt_TileSheet_246: -1652811376
+      Grass_Dirt_TileSheet_247: -135315159
+      Grass_Dirt_TileSheet_248: -579284713
+      Grass_Dirt_TileSheet_249: 1578918079
+      Grass_Dirt_TileSheet_25: -2042308881
+      Grass_Dirt_TileSheet_250: -1132488263
+      Grass_Dirt_TileSheet_251: -1417213126
+      Grass_Dirt_TileSheet_252: 397200541
+      Grass_Dirt_TileSheet_253: 1277596581
+      Grass_Dirt_TileSheet_254: 1521995856
+      Grass_Dirt_TileSheet_255: 1047102948
+      Grass_Dirt_TileSheet_256: 1804354342
+      Grass_Dirt_TileSheet_257: 1604661980
+      Grass_Dirt_TileSheet_258: 849389082
+      Grass_Dirt_TileSheet_259: -1448642513
+      Grass_Dirt_TileSheet_26: 1438066128
+      Grass_Dirt_TileSheet_260: -339914251
+      Grass_Dirt_TileSheet_261: 906097992
+      Grass_Dirt_TileSheet_262: -419812920
+      Grass_Dirt_TileSheet_263: -1554299195
+      Grass_Dirt_TileSheet_264: -1377423507
+      Grass_Dirt_TileSheet_265: 1575402706
+      Grass_Dirt_TileSheet_266: -1646083692
+      Grass_Dirt_TileSheet_267: 833155479
+      Grass_Dirt_TileSheet_268: -1716884334
+      Grass_Dirt_TileSheet_269: -1315237121
+      Grass_Dirt_TileSheet_27: 631031457
+      Grass_Dirt_TileSheet_270: -1647690222
+      Grass_Dirt_TileSheet_271: -1201860385
+      Grass_Dirt_TileSheet_28: 1618957904
+      Grass_Dirt_TileSheet_29: 1483413956
+      Grass_Dirt_TileSheet_3: 265796543
+      Grass_Dirt_TileSheet_30: 1139277831
+      Grass_Dirt_TileSheet_31: 1165167713
+      Grass_Dirt_TileSheet_32: -1799408079
+      Grass_Dirt_TileSheet_33: -2063610617
+      Grass_Dirt_TileSheet_34: 560420350
+      Grass_Dirt_TileSheet_35: 167729644
+      Grass_Dirt_TileSheet_36: -193579885
+      Grass_Dirt_TileSheet_37: 426974512
+      Grass_Dirt_TileSheet_38: -1014140203
+      Grass_Dirt_TileSheet_39: 524443067
+      Grass_Dirt_TileSheet_4: -1908420263
+      Grass_Dirt_TileSheet_40: 2146134826
+      Grass_Dirt_TileSheet_41: -1532873679
+      Grass_Dirt_TileSheet_42: -1332133489
+      Grass_Dirt_TileSheet_43: 1227295961
+      Grass_Dirt_TileSheet_44: -27615384
+      Grass_Dirt_TileSheet_45: 1996117849
+      Grass_Dirt_TileSheet_46: -1137844746
+      Grass_Dirt_TileSheet_47: 1667774638
+      Grass_Dirt_TileSheet_48: -845272364
+      Grass_Dirt_TileSheet_49: 1893821021
+      Grass_Dirt_TileSheet_5: -1786457896
+      Grass_Dirt_TileSheet_50: -201457309
+      Grass_Dirt_TileSheet_51: -945664001
+      Grass_Dirt_TileSheet_52: -294403227
+      Grass_Dirt_TileSheet_53: -1716371431
+      Grass_Dirt_TileSheet_54: -1515457857
+      Grass_Dirt_TileSheet_55: 143602949
+      Grass_Dirt_TileSheet_56: 435557951
+      Grass_Dirt_TileSheet_57: -746225291
+      Grass_Dirt_TileSheet_58: 506097391
+      Grass_Dirt_TileSheet_59: 22707565
+      Grass_Dirt_TileSheet_6: -1301105592
+      Grass_Dirt_TileSheet_60: -349433661
+      Grass_Dirt_TileSheet_61: 1636119717
+      Grass_Dirt_TileSheet_62: 1764722159
+      Grass_Dirt_TileSheet_63: -1937277875
+      Grass_Dirt_TileSheet_64: -426838295
+      Grass_Dirt_TileSheet_65: 741241222
+      Grass_Dirt_TileSheet_66: 1081432826
+      Grass_Dirt_TileSheet_67: -1252380763
+      Grass_Dirt_TileSheet_68: 1368092386
+      Grass_Dirt_TileSheet_69: -1385606659
+      Grass_Dirt_TileSheet_7: -1809654386
+      Grass_Dirt_TileSheet_70: -396529896
+      Grass_Dirt_TileSheet_71: 1566601120
+      Grass_Dirt_TileSheet_72: 793238100
+      Grass_Dirt_TileSheet_73: 1194621733
+      Grass_Dirt_TileSheet_74: -1820199990
+      Grass_Dirt_TileSheet_75: -2102894193
+      Grass_Dirt_TileSheet_76: 737366368
+      Grass_Dirt_TileSheet_77: 2059536431
+      Grass_Dirt_TileSheet_78: 1808661610
+      Grass_Dirt_TileSheet_79: -184074067
+      Grass_Dirt_TileSheet_8: -1878979010
+      Grass_Dirt_TileSheet_80: 1307280871
+      Grass_Dirt_TileSheet_81: 2116469907
+      Grass_Dirt_TileSheet_82: 732266898
+      Grass_Dirt_TileSheet_83: -322897167
+      Grass_Dirt_TileSheet_84: 1941908245
+      Grass_Dirt_TileSheet_85: -2025606960
+      Grass_Dirt_TileSheet_86: -242803319
+      Grass_Dirt_TileSheet_87: 1071754730
+      Grass_Dirt_TileSheet_88: -866245109
+      Grass_Dirt_TileSheet_89: 667722663
+      Grass_Dirt_TileSheet_9: -237750093
+      Grass_Dirt_TileSheet_90: -193780508
+      Grass_Dirt_TileSheet_91: 1422984511
+      Grass_Dirt_TileSheet_92: -2035919107
+      Grass_Dirt_TileSheet_93: -2137198182
+      Grass_Dirt_TileSheet_94: 217673724
+      Grass_Dirt_TileSheet_95: 779397230
+      Grass_Dirt_TileSheet_96: 764555561
+      Grass_Dirt_TileSheet_97: 220570334
+      Grass_Dirt_TileSheet_98: -1767439601
+      Grass_Dirt_TileSheet_99: 302478266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
