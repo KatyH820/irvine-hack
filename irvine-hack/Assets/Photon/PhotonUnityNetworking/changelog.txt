@@ -3,10 +3,6 @@ PUN 2 - Changelog
 Exit Games GmbH - www.photonengine.com - forum.photonengine.com
 
 
-v2.44 (14. December 2023)
-Updated: Library, Realtime and Chat API to 4.1.7.4. Fixes and changes for Best Region Selection and reporting client timeouts to server. More in the related change logs.
-Updated: PUN Wizard panel. Replaced forum link with pointer to join our Discord.
-
 v2.43 (21. August 2023)
 Updated: Library, Realtime and Chat API to 4.1.7.0. This includes many improvements for WebSockets and connection-loss debugging (specifically for UDP, SocketUdp class). More in the related change logs.
 Updated: To Unity 2019.4.

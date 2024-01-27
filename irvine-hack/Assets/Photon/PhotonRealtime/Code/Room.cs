@@ -156,16 +156,15 @@ namespace Photon.Realtime
 
             set
             {
-                if (value >= 0 && value != this.maxPlayers)
+                if (value != this.maxPlayers)
                 {
-                    // the following code is for compatibility with old and new servers. old use MaxPlayers, which has to be byte typed. MaxPlayersInt is available on new servers to allow int typed MaxPlayer values.
-                    // added to server 5.0.19.xyz / 6.0.19.xyz respectively
-                    this.maxPlayers = value;
-                    byte maxPlayersAsByte = value <= byte.MaxValue ? (byte)value : (byte)0;
+                    byte maxPlayersPropValue = (byte)value;     // TODO: when the server accepts int typed MaxPlayers, remove this
                     if (!this.isOffline)
                     {
-                        this.LoadBalancingClient.OpSetPropertiesOfRoom(new Hashtable() { { GamePropertyKey.MaxPlayers, maxPlayersAsByte }, { GamePropertyKey.MaxPlayersInt, this.maxPlayers } });
+                        this.LoadBalancingClient.OpSetPropertiesOfRoom(new Hashtable() { { GamePropertyKey.MaxPlayers, maxPlayersPropValue } });
                     }
+
+                    this.maxPlayers = maxPlayersPropValue;
                 }
             }
         }

@@ -4,18 +4,6 @@ Exit Games GmbH - www.photonengine.com - forum.photonengine.com
 
 
 
-Version 4.1.7.4 (13. December 2023 - rev7284)
-    Added: Matchmaking Ticket support. Tickets can be written server side (in a plugin or some backend) to define some parameters for the client. For example, a ticket can contain a list of party members who should join the same room or a room name to join or other parameters. More to be added to the online docs soon.
-    Fixed: Potential InvalidOperationException in RegionHandler if pinging failed to get any results.
-
-Version 4.1.7.3 (07. December 2023 - rev7252)
-    Changed: Best Region selection. From a shortlist of similar regions, we now pick a code alphabetically (improving determinism). In some locations, clients will get very similar results to various regions.
-    Added: Private RegionHandler.pingSimilarityFactor to calculate the max ping value for "similar results".
-
-Version 4.1.7.2 (20. September 2023 - rev7218)
-	Added: MaxPlayer support for more than 255 players. With a recent server version, it is now possible to define larger limits without setting the room's capability to infinite (0).
-	Changed: To work around an issue while running a WebGL-project in Editor, Realtime will use http instead of https to ping servers. For unknown reasons, the https ping in Editor (and only there) is delayed considerable in some cases, ruining the ping results).
-
 Version 4.1.7.1 (06. September 2023 - rev7148)
     No notable changes.
 
