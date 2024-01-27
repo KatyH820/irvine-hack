@@ -38,7 +38,7 @@ public class Player : MonoBehaviourPun
 
     private void CheckInput() {
         var move = new Vector3(Input.GetAxisRaw("Horizontal"), 0);
-        transform.position = move * MoveSpeed * Time.deltaTime;
+        transform.position += move * MoveSpeed * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.A)) {
             sr.flipX = true;

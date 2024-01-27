@@ -191,16 +191,9 @@ namespace Photon.Realtime
             gameProperties[GamePropertyKey.IsVisible] = roomOptions.IsVisible;
             gameProperties[GamePropertyKey.PropsListedInLobby] = (roomOptions.CustomRoomPropertiesForLobby == null) ? new string[0] : roomOptions.CustomRoomPropertiesForLobby;
             gameProperties.MergeStringKeys(roomOptions.CustomRoomProperties);
-
-
             if (roomOptions.MaxPlayers > 0)
             {
-                // the following code is for compatibility with old and new servers. old use MaxPlayers, which has to be byte typed. MaxPlayersInt is available on new servers to allow int typed MaxPlayer values.
-                // added to server 5.0.19.xyz / 6.0.19.xyz respectively
-                byte maxPlayersAsByte = roomOptions.MaxPlayers <= byte.MaxValue ? (byte)roomOptions.MaxPlayers : (byte)0;
-
-                gameProperties[GamePropertyKey.MaxPlayers] = maxPlayersAsByte;
-                gameProperties[GamePropertyKey.MaxPlayersInt] = roomOptions.MaxPlayers;
+                gameProperties[GamePropertyKey.MaxPlayers] = roomOptions.MaxPlayers;
             }
 
             if (!usePropertiesKey)
@@ -405,15 +398,9 @@ namespace Photon.Realtime
 
             Hashtable expectedRoomProperties = new Hashtable();
             expectedRoomProperties.MergeStringKeys(opJoinRandomRoomParams.ExpectedCustomRoomProperties);
-
             if (opJoinRandomRoomParams.ExpectedMaxPlayers > 0)
             {
-                // the following code is for compatibility with old and new servers. old use MaxPlayers, which has to be byte typed. MaxPlayersInt is available on new servers to allow int typed MaxPlayer values.
-                // added to server 5.0.19.xyz / 6.0.19.xyz respectively
-                byte maxPlayersAsByte = opJoinRandomRoomParams.ExpectedMaxPlayers <= byte.MaxValue ? (byte)opJoinRandomRoomParams.ExpectedMaxPlayers : (byte)0;
-
-                expectedRoomProperties[GamePropertyKey.MaxPlayers] = maxPlayersAsByte;
-                expectedRoomProperties[GamePropertyKey.MaxPlayersInt] = opJoinRandomRoomParams.ExpectedMaxPlayers;
+                expectedRoomProperties[GamePropertyKey.MaxPlayers] = opJoinRandomRoomParams.ExpectedMaxPlayers;
             }
 
             Dictionary<byte, object> opParameters = new Dictionary<byte, object>();
@@ -464,12 +451,7 @@ namespace Photon.Realtime
             expectedRoomProperties.MergeStringKeys(opJoinRandomRoomParams.ExpectedCustomRoomProperties);
             if (opJoinRandomRoomParams.ExpectedMaxPlayers > 0)
             {
-                // the following code is for compatibility with old and new servers. old use MaxPlayers, which has to be byte typed. MaxPlayersInt is available on new servers to allow int typed MaxPlayer values.
-                // added to server 5.0.19.xyz / 6.0.19.xyz respectively
-                byte maxPlayersAsByte = opJoinRandomRoomParams.ExpectedMaxPlayers <= byte.MaxValue ? (byte)opJoinRandomRoomParams.ExpectedMaxPlayers : (byte)0;
-
-                expectedRoomProperties[GamePropertyKey.MaxPlayers] = maxPlayersAsByte;
-                expectedRoomProperties[GamePropertyKey.MaxPlayersInt] = opJoinRandomRoomParams.ExpectedMaxPlayers;
+                expectedRoomProperties[GamePropertyKey.MaxPlayers] = opJoinRandomRoomParams.ExpectedMaxPlayers;
             }
 
             Dictionary<byte, object> opParameters = new Dictionary<byte, object>();
@@ -497,10 +479,6 @@ namespace Photon.Realtime
             if (opJoinRandomRoomParams.ExpectedUsers != null && opJoinRandomRoomParams.ExpectedUsers.Length > 0)
             {
                 opParameters[ParameterCode.Add] = opJoinRandomRoomParams.ExpectedUsers;
-            }
-            if (opJoinRandomRoomParams.Ticket != null)
-            {
-                opParameters[ParameterCode.Ticket] = opJoinRandomRoomParams.Ticket;
             }
 
 
@@ -1085,7 +1063,7 @@ namespace Photon.Realtime
         /// <summary>The custom room properties a room must have to fit. All key-values must be present to match. In SQL Lobby, use SqlLobbyFilter instead.</summary>
         public Hashtable ExpectedCustomRoomProperties;
         /// <summary>Filters by the MaxPlayers value of rooms.</summary>
-        public int ExpectedMaxPlayers;
+        public byte ExpectedMaxPlayers;
         /// <summary>The MatchmakingMode affects how rooms get filled. By default, the server fills rooms.</summary>
         public MatchmakingMode MatchingType;
         /// <summary>The lobby in which to match. The type affects how filters are applied.</summary>
@@ -1095,8 +1073,6 @@ namespace Photon.Realtime
         /// <summary>The expected users list blocks player slots for your friends or team mates to join the room, too.</summary>
         /// <remarks>See: https://doc.photonengine.com/en-us/pun/v2/lobby-and-matchmaking/matchmaking-and-lobby#matchmaking_slot_reservation </remarks>
         public string[] ExpectedUsers;
-        /// <summary>Ticket for matchmaking. Provided by a plugin / server and contains a list of party members who should join the same room (among other things).</summary>
-        public object Ticket;
     }
 
     /// <summary>Parameters for creating rooms.</summary>
@@ -1321,8 +1297,6 @@ namespace Photon.Realtime
     {
         /// <summary>(255) Max number of players that "fit" into this room. 0 is for "unlimited".</summary>
         public const byte MaxPlayers = 255;
-        /// <summary>(244) Integer-typed max number of players that "fit" into this room. 0 is for "unlimited".</summary>
-        public const byte MaxPlayersInt = 244;
 
         /// <summary>(254) Makes this room listed or not in the lobby on master.</summary>
         public const byte IsVisible = 254;
@@ -1641,12 +1615,6 @@ namespace Photon.Realtime
 
         /// <summary>(191) An int parameter summarizing several boolean room-options with bit-flags.</summary>
         public const byte RoomOptionFlags = 191;
-
-        /// <summary>Matchmaking ticket (type object).</summary>
-        public const byte Ticket = 190;
-
-        /// <summary>Used server side once the group is extracted from the ticket. Clients don't send this.</summary>
-        public const byte MatchMakingGroupId = 189;
     }
 
 
