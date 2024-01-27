@@ -1490,7 +1490,7 @@
              DisconnectTimeout and SentCountAllowance are competing settings: either might trigger a disconnect on the
              client first, depending on the values and Roundtrip Time.
             
-             Default: 10000 ms.
+             Default: 10000 ms. Maximum setting: 65535.
              Setting a negative value will apply the default timeout.
              </remarks>
         </member>
