@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 2999216789
     locked: 0
+  - name: BuildingSides
+    uniqueID: 2462478535
+    locked: 0
   - name: Foreground
     uniqueID: 787038471
     locked: 0

@@ -3580,7 +3580,7 @@ namespace Photon.Realtime
         /// The covered callback interfaces are: IConnectionCallbacks, IMatchmakingCallbacks,
         /// ILobbyCallbacks, IInRoomCallbacks, IOnEventCallback and IWebRpcCallback.
         ///
-        /// See: <a href="https://doc.photonengine.com/en-us/realtime/current/reference/dotnet-callbacks">DotNet Callbacks</a>
+        /// See: <a href="https://doc.photonengine.com/en-us/realtime/current/reference/dotnet-callbacks"/>
         /// </remarks>
         /// <param name="target">The object that registers to get callbacks from this client.</param>
         public void AddCallbackTarget(object target)
@@ -3820,9 +3820,9 @@ namespace Photon.Realtime
         ///
         /// The list is sorted using two criteria: open or closed, full or not. So the list is composed of three groups, in this order:
         ///
-        /// first group: open and not full (joinable).<br/>
-        /// second group: full but not closed (not joinable).<br/>
-        /// third group: closed (not joinable, could be full or not).<br/>
+        /// first group: open and not full (joinable).</br>
+        /// second group: full but not closed (not joinable).</br>
+        /// third group: closed (not joinable, could be full or not).</br>
         ///
         /// In each group, entries do not have any particular order (random).
         ///
