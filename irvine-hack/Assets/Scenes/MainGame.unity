@@ -295,7 +295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &412899730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,7 +1367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1623554803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1614,7 +1614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1622,15 +1622,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1662,11 +1662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 115.82
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -62.572403
       objectReference: {fileID: 0}
     - target: {fileID: 1432122714302329498, guid: eb12362543a66e54383a3832fc6364dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1704,8 +1704,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1592229704}
-  - {fileID: 412899733}
   - {fileID: 495001037}
   - {fileID: 1623554806}
   - {fileID: 978028942}
   - {fileID: 1222173188}
+  - {fileID: 412899733}
