@@ -62,3 +62,6 @@ TagManager:
   - name: WallBorder
     uniqueID: 2872046897
     locked: 0
+  - name: player
+    uniqueID: 1834633635
+    locked: 0
