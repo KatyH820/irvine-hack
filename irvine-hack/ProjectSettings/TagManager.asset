@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: backk
+    uniqueID: 1744863157
+    locked: 0
   - name: Background
     uniqueID: 2999216789
     locked: 0
@@ -49,4 +52,13 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 787038471
+    locked: 0
+  - name: ForegroundNoCollision
+    uniqueID: 1353599821
+    locked: 0
+  - name: Walls
+    uniqueID: 2389624561
+    locked: 0
+  - name: WallBorder
+    uniqueID: 2872046897
     locked: 0
