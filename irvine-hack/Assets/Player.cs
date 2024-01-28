@@ -19,6 +19,10 @@ public class Player : MonoBehaviourPun
     private void Awake() {
         if (photonView.IsMine) {
             PlayerCamera.SetActive(true);
+            PlayerNameText.text = PhotonNetwork.NickName;
+        } else {
+            PlayerNameText.text = photonView.Owner.NickName;
+            PlayerNameText.color = Color.cyan;
         }
     }
 
@@ -37,15 +41,43 @@ public class Player : MonoBehaviourPun
     }
 
     private void CheckInput() {
-        var move = new Vector3(Input.GetAxisRaw("Horizontal"), 0);
-        transform.position += move * MoveSpeed * Time.deltaTime;
+        var move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        transform.position = move * MoveSpeed * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.A)) {
-            sr.flipX = true;
+            photonView.RPC("FlipTrue", RpcTarget.AllBuffered);
         }
 
         if (Input.GetKeyDown(KeyCode.D)) {
-            sr.flipX = false;
+            photonView.RPC("FlipFalse", RpcTarget.AllBuffered);
         }
+
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
+            anim.SetBool("isRunning", true);
+        } else {
+            anim.SetBool("isRunning", false);
+        }
+
+        if (Input.GetKey(KeyCode.W)) {
+            anim.SetBool("isRunningUp", true);
+        } else {
+            anim.SetBool("isRunningUp", false);
+        }
+        
+        if (Input.GetKey(KeyCode.S)) {
+            anim.SetBool("isRunningDown", true);
+        } else {
+            anim.SetBool("isRunningDown", false);
+        }
+    }
+
+    [PunRPC]
+    private void FlipTrue() {
+        sr.flipX = true;
+    }
+
+    [PunRPC]
+    private void FlipFalse() {
+        sr.flipX = false;
     }
 }
