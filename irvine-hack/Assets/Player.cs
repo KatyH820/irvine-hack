@@ -42,7 +42,11 @@ public class Player : MonoBehaviourPun
 
     private void CheckInput() {
         var move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        transform.position = move * MoveSpeed * Time.deltaTime;
+        // transform.position += move * MoveSpeed * Time.deltaTime;
+        Debug.Log(MoveSpeed);
+        Debug.Log(move.x);
+        Debug.Log(move.y);
+        rb.velocity = new Vector2(move.x * MoveSpeed, move.y * MoveSpeed);
 
         if (Input.GetKeyDown(KeyCode.A)) {
             photonView.RPC("FlipTrue", RpcTarget.AllBuffered);
