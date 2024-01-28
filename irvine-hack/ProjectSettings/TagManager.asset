@@ -50,3 +50,12 @@ TagManager:
   - name: Foreground
     uniqueID: 787038471
     locked: 0
+  - name: ForegroundNoCollision
+    uniqueID: 1353599821
+    locked: 0
+  - name: Walls
+    uniqueID: 2389624561
+    locked: 0
+  - name: WallBorder
+    uniqueID: 2872046897
+    locked: 0
