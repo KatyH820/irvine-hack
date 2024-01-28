@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: InvisibleBarrier
+    uniqueID: 1460335941
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
